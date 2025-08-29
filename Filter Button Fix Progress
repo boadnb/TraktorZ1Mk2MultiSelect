@@ -1,0 +1,17 @@
+2025.08.29
+
+Discovered where Filter button action occurs in \CSI\Z1MK2\Z1MK2.qml
+The code snippet is below
+Need to investigate this code and its references to find how to make filter buttons follow decks on all pages.
+  Z1MK2FXSelector
+  {
+    name: "channel_fx_selector"
+    surface: "surface"
+    leftDeckIdx: mapping.leftDeckIdx
+    rightDeckIdx: mapping.rightDeckIdx
+
+    shift: mapping.shift
+    filterPushAction: filterPushActionProp.value
+    channelFxPushAction: channelFxPushActionProp.value
+    channelFxShiftPushAction: channelFxShiftPushActionProp.value
+  }
