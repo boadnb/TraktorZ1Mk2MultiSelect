@@ -1,4 +1,4 @@
-Version 1.0
+Version 1.1
 
 This modification adds the ability to cycle through multiple channel configurations on the 
 NI Traktor Z1MK2, similar to the functionality of the Traktor X1MK2. It enables you to pair 
@@ -14,26 +14,27 @@ C - A
 B - D                                                                                           
                                                                                             
 
-Installation is completed in 7 easy steps.
-   1. Copy the 'Z1MK2.qml' file and 'Defines' directory.
-   2. Navigate to your Traktor Pro 4 installation folder.
+Installation is completed in 15 easy steps.
+   1. Navigate to your Traktor Pro 4 installation folder.
       - Windows: C:\Program Files\Native Instruments\Traktor Pro 4
       - Mac: Applications\Native Instruments\Traktor Pro 4
-   3. Open the 'Resources64' directory.
-   4. Open the 'qml' directory.
-   5. Open the 'CSI' directory.
-   6. Open the 'Z1MK2' directory.
-   7. Paste the files here, overwriting the old files.
-   8. Open Traktor Pro 4.
-   9. Have fun!.
+   2. Open the 'Resources64' directory.
+   3. Open the 'qml' directory.
+   4. Open the 'CSI' directory and replace the X1MK3 and Z1MK2 directories using the modified files.
+   5. Open the 'Defines' directory and replace its content using the modified files.
+   6. Open the 'Screens' directory and replace the the X1MK3 and Z1MK2 directories using the modified files.
+   7. Open Traktor Pro 4.
+   8. Open Settings.
+   9. Tap on Controller Editor.
+  10. Tap Add button.
+  11. Select Import From Disk.
+  12. Open the Z1 MK2 Filter Fix Mapping.tsi file.
+  13. Ensure the input and output ports are set to your Traktor Z1 MK2.
+  14. Close the settings.
+  15. Have fun!
 
 
-Files included:
-   - Z1MK2.qml
-   - ButtonsActions.qml
-   - DeviceAssignment.qml
-   - qmldir
-
-
-Currently known issues:
-   - Filter button only functions when a channel is in its factory position (left or right).
+Version History
+1.0 - First iteration of deck select
+1.1 - Added mapping to correct filter issue
+1.X - All future versions will be managed in the Traktor Z1 MK2 Screen Mod located at https://github.com/boadnb/TraktorZ1MK2ScreenMod
