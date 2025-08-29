@@ -15,3 +15,7 @@ Need to investigate this code and its references to find how to make filter butt
     channelFxPushAction: channelFxPushActionProp.value
     channelFxShiftPushAction: channelFxShiftPushActionProp.value
   }
+
+Buttons are specifically assigned to the lines
+    leftDeckIdx: mapping.leftDeckIdx
+    rightDeckIdx: mapping.rightDeckIdx
